@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3605941530" file="C:\Users\eliza\Dropbox\PC\Downloads\LAHacks2023NitrogenCalculator.prj" location="C:\Users\eliza\Dropbox\PC\Downloads" name="LAHacks2023NitrogenCalculator" target="target.mlapps" target-name="Package App">
+    <param.appname>LAHacks2023NitrogenCalculator</param.appname>
+    <param.authnamewatermark>Elizabeth Keeley</param.authnamewatermark>
+    <param.email>emkeeley@ncsu.edu</param.email>
+    <param.company>North Carolina State University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Calculates predicted pounds of nitrogen run-off based on number of pounds of fertilizer applied per square acre.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\eliza\AppData\Local\Temp\tp94c126b6_0122_4812_9637_a471cd7765f3.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>a56b5275-b473-4742-8729-b742c00b1c4b</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\LAHacks2023App.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\LAHacks Water.png</file>
+      <file>${PROJECT_ROOT}\LAHacksArrow.png</file>
+      <file>${PROJECT_ROOT}\LAHacksBorder.png</file>
+      <file>${PROJECT_ROOT}\LAHacksFertilizerPicture.jpeg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\eliza\Dropbox\PC" name="Downloads" optional="false">C:\Users\eliza\Dropbox\PC\Downloads</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
